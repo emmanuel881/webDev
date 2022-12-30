@@ -42,11 +42,14 @@
 ### 1)Adjucent sibling selector
 * It selects all the elements that are adjacent siblings of specified elements. It selects the second element if it immediately follows the first element. 
 * for example:
-'''
+
+```
 h4+ul{
     border: 4px solid red;
 }
-'''
+
+```
+
 * this select ul tags that immedietly follow h4 tag
 ### 2)Attribute Selector
 *  It selects a particular type of inputs.
@@ -57,7 +60,8 @@ input[type="checkbox"]{
 }
 '''
 ####example
-'''
+
+```
 <html>
    <head>
       <title>Attribute</title>
@@ -73,14 +77,17 @@ input[type="checkbox"]{
       <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
    </body>
 </html>
-'''
+```
+
 ### 3)nth-of-type Selector
 * selects an element from its position and types. 
-'''
+
+```
 div:nth-of-type(5){
     background:purple;
 }
-'''
+```
+
 ### 4)Direct Child Selector
 
 
