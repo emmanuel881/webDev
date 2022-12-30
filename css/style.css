@@ -1,3 +1,21 @@
 body {
-	background: pink
+	background: pink;
+}
+.title {
+	/*
+	 * we are using the class attribute
+	 */
+	color: red;
+}
+#aboutus {
+	/*
+	 * we are using the id attribute
+	 */
+	color: blue;
+}
+h1:hover {
+	/*
+	 * hover is a pseudoselectors
+	 */
+	color: black;
 }
