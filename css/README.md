@@ -174,7 +174,33 @@ background: radial-gradient(red 20%, blue 40%, green 55%);
 ```
 ## Types of Units
 ### absolute and relative units
+* unlike absolute units relative units depend on something(parent element)
+* relative units is preffered when it comes to a responsive design. examples:
+	* percentage
+	* em
+	* view-width
+	* view-height
+* (research on units)
 
+## Text-manipulation
+* they are not dependant on the font
+* involves text size, underlining, color, uppercase etc
+## Font-manipulation
+* involves things like bolding
+## font families
+* there three major font families commonly used:
+	* san-serif
+	* serif
+	* monospace
+## external fonts
+* https://fonts.google.com/
+* we copy the link to the fonts and paste it above the link stylesheet
+* will then take select the font we want to use in our CSS file
+* its advisable to add a default font incase the extrernal one fails
+
+## CSS: The Box Model
+* its a box that raps around HTML elements
+![image](../img/box.png)
 
 
 
