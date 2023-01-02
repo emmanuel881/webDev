@@ -193,7 +193,7 @@ background: radial-gradient(red 20%, blue 40%, green 55%);
 	* serif
 	* monospace
 ## external fonts
-* https://fonts.google.com/
+![link to google fonts](https://fonts.google.com/)
 * we copy the link to the fonts and paste it above the link stylesheet
 * will then take select the font we want to use in our CSS file
 * its advisable to add a default font incase the extrernal one fails
