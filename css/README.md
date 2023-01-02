@@ -141,7 +141,9 @@ ul li a {
 	color: red;
 }
 ```
-
+## Properties
+### images
+* By default the value for the background-repeat property is no-repeat.
 
 
 

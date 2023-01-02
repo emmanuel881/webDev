@@ -1,21 +1,33 @@
 body {
-	background: pink;
+  background-color: magenta;
 }
 .title {
-	/*
+  /*
 	 * we are using the class attribute
 	 */
-	color: red;
+  color: red;
 }
 #aboutus {
-	/*
+  /*
 	 * we are using the id attribute
 	 */
-	color: blue;
+  color: blue;
 }
 h1:hover {
-	/*
+  /*
 	 * hover is a pseudoselectors
 	 */
-	color: black;
+  color: black;
+}
+#manu {
+  width: 100%;
+}
+#service-image {
+  height: 400px;
+  width: 70%;
+
+  background: url("../img/duck.jpg");
+  background-size: 100px;
+  background-color: black;
+  /*background-repeat: no-repeat;*/
 }
