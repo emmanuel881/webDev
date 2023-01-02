@@ -145,6 +145,35 @@ ul li a {
 ### images
 * By default the value for the background-repeat property is no-repeat.
 
+### grandients
+* there 2 types of grandients:
+	* radial - are circular
+	* linear - from left to right, top to bottom or diagonally
+* linear gradient is a background property value
+* an example of linear grandient is:
+
+```
+background: linear-grandient(to right, red, blue);
+
+```
+we can also add an rgba() color value
+
+```
+background: linear-grandient(to right, red, blue) rgba(56, 100, 255, 0.3);
+
+```
+* an example of radial gradient is:
+```
+background: radial-gradient(red, blue);
+
+```
+* we can add the color propotions like this:
+```
+background: radial-gradient(red 20%, blue 40%, green 55%);
+
+```
+## Types of Units
+### absolute and relative units
 
 
 

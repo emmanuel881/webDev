@@ -1,5 +1,5 @@
 body {
-  background-color: magenta;
+  background: rgba(204, 299, 255, 0.4);
 }
 .title {
   /*
@@ -26,8 +26,13 @@ h1:hover {
   height: 400px;
   width: 70%;
 
-  background: url("../img/duck.jpg");
-  background-size: 100px;
-  background-color: black;
+  background: linear-gradient(to right, red, blue);
+  /*background-repeat: no-repeat;*/
+}
+#service-image2 {
+  height: 400px;
+  width: 70%;
+
+  background: radial-gradient(red 20%, blue 40%, green 55%);
   /*background-repeat: no-repeat;*/
 }
