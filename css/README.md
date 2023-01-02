@@ -201,6 +201,18 @@ background: radial-gradient(red 20%, blue 40%, green 55%);
 ## CSS: The Box Model
 * its a box that raps around HTML elements
 ![image](../img/box.png)
+### Padding
+* its space between content and the border
+* it gives more rom around the content
+### margin
+* its space between border and other content
+### border
+* the basic syntax is :
+```
+border: size style color;
+
+```
+
 
 
 
