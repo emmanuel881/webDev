@@ -281,6 +281,115 @@ border: size style color;
 #### Perfect Centering
 * to do this we set the justify-content and align-items properties to center, and the flex item will be perfectly centered
 ### CSS Flex Items
+#### order property
+* it specifis order of flex items
+* example:
+```
+<div class="flex-container">
+  <div style="order: 3">1</div>
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div>
+  <div style="order: 1">4</div>
+</div>
+```
+#### flex-grow property
+* specifies how much flex item will grow relative to the rest of the flex items
+```
+<div class="flex-container">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
+</div>
+```
+* it makes the 3rd flex item grow 8 times faster than other items
+#### flex-shrink property
+* specifies how much a flex item will shrink relative to the rest of items
+```
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 0">3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+</div>
+```
+* Do not let the third flex item shrink as much as the other flex items
+#### flex-basis property
+* specifies the initial length of a flex item
+* example:
+	* Set the initial length of the third flex item to 200 pixels:
+```
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-basis: 200px">3</div>
+  <div>4</div>
+</div>
+```
+#### flex property
+* this is a shorthand for flex-grow, flex-shrink and flex-basics properties.
+* Example:
+	* Make the third flex item not growable (0), not shrinkable (0), and with an initial length of 200 pixels
+
+```
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex: 0 0 200px">3</div>
+  <div>4</div>
+</div>
+```
+
+#### align-self property
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
