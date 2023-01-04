@@ -212,8 +212,75 @@ background: radial-gradient(red 20%, blue 40%, green 55%);
 border: size style color;
 
 ```
-
-
+## Flexbox
+* its split into 2,.. the continer and flex items
+* the container is the parent element;in which the display type is active(normally inform of div)
+* flex items are the child making up the context of the box.
+* we can create a flex container this way
+```
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+```
+* the container becomes flexible after setting display property to flex eg..
+```
+.flex-container {
+  display: flex;
+}
+```
+### flex container properties
+#### flex-direction
+* its the direction you want to stack items
+* eg the column value stacks items vertically
+```
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+```
+#### flex-wrap property
+* it specifies whether the flex items should be wrap or not
+```
+.flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+```
+#### flex-flow property
+* its a shorthand property for setting both flex-direction and flex-wrap properties eg
+```
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+```
+#### justify-content property
+* used to align flex items.
+```
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+```
+* the center value aligns items to the center of the parent element(container)
+* The flex-start value aligns the flex items at the beginning of the container
+* The space-around value displays the flex items with space before, between, and after the lines
+#### align-items property
+* used to align flex items
+```
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+```
+#### align-content property
+* used to align the flex lines
+#### Perfect Centering
+* to do this we set the justify-content and align-items properties to center, and the flex item will be perfectly centered
+### CSS Flex Items
 
 
 
