@@ -346,8 +346,26 @@ border: size style color;
 ```
 
 #### align-self property
+```
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="align-self: center">3</div>
+  <div>4</div>
+</div>
+```
+### flex property
+* we can summuries flex grow shrink and basis
+* example
+```
+/* flex: grow shrink basis */
 
+flex: 1 1 100px
 
+```
+### grid vs flexbox
+* grid is very focused on providing tools for dimensions(width and height
+* flexbox is focused on width alone
 
 
 
