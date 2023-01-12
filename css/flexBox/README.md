@@ -8,4 +8,4 @@
 NB: flex is build for small scale layouts while grid is for large scale
 
 ```
-![image](./flexlayout.png)
+![image](./flexlayout.png)a
