@@ -1,0 +1,59 @@
+nav {
+  background-color: antiquewhite;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 10px;
+}
+.tabs {
+  display: flex;
+  list-style: none;
+
+  margin: 0px;
+  padding: 0;
+}
+#flex-container {
+  display: flex;
+}
+#flex-container div {
+  border: 1px solid black;
+  padding: 10px;
+}
+.box-1 {
+  flex: 1; /*make flex items propotionate*/
+  order: 2;
+}
+.box-2 {
+  flex: 1;
+  order: 3;
+}
+.box-3 {
+  flex: 1;
+  order: 1;
+}
+.color-contaier {
+  background-color: #fff;
+  border: 3px solid black;
+  margin: 10px;
+
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.red {
+  height: 50px;
+  width: 80%;
+  background-color: red;
+}
+.blue {
+  height: 50px;
+  width: 80px;
+  background-color: blue;
+}
+.pink {
+  align-self: flex-end;
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+}

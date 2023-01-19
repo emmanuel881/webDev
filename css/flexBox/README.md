@@ -8,4 +8,18 @@
 NB: flex is build for small scale layouts while grid is for large scale
 
 ```
-![image](./flexlayout.png)a
+![image](./flexlayout.png)
+## fles properties
+* some examples are:
+	* display: flex | inline-flex
+	* flex-direction: row | column
+	* flex-wrap: wrap | no-wrap | wrapreverse
+	* flex-basis: length
+	* justify-content: flex-start | flex-end | center
+	* align-self: flex-start | flex-end | center
+	* align-items: flex-start | flex-end | center
+	* align-content: flex-start | flex-end | center
+	* flex-grow: number
+	* flex-shrink: number
+	* flex: integer
+	* order: integer
